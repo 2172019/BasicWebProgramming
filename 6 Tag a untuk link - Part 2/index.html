@@ -1,0 +1,39 @@
+<!--Catatan Belajar Hallomell Studio || Bahas contoh URL Relatif https://youtu.be/6uzCUwAlglA tentang tag a / link-->
+<!--Catatan Belajar Hallomell Studio || Bahas contoh URL Absolute https://youtu.be/_lWbMPbVlPA ada bahas value mailto dan atribut target (value yang dibahas : _self / _blank. Maaf ya Value yang belum dibahas : _top dan _parent "nanti dibahas pas kita belajar iframe yach")-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Ini bahasan sebelumnya tentang URL relatif-->
+    <!--idenya buat 2 file html yaitu : index.html dan halaman2.html
+    Nantinya dari index.html ada link untuk menuju ke halaman2.html-->
+    Halaman Pertama
+    <br>
+    <!--Ini adalah URL relatif artinya tanpa "https://www"-->
+    <a href="halaman2.html">Pindah ke halaman 2</a> <!--dengan menggunakan atribut href pada tag a, maka teks ini kalau diklik akan pindah ke halaman2.html-->
+    <br>
+    <a href="halaman2.html" title="Halaman 2">Sentuh teks untuk lihat title</a> <!--atribut tile digunakan agar ketika disentuh teks linknya memperlihatkan informasi tambahan.-->
+    <!--Silahkan bandingkan link yang tidak menggunakan atribut title dengan yang menggunakan atribut title-->
+    
+    <hr>
+    <!--Ini adalah URL absolute-->
+    <a href="http://www.youtube.com/hallomellstudio">Hallomell Studio</a>
+    <br>
+    <!--Selanjutnya kita bahas tentang target-->
+    <!--value target yang belum dibahas adalah _parent dan _top nanti pas belajar iframe ya-->
+    <a href="http://www.youtube.com/hallomellstudio" target="_self">Hallomell Studio</a> <!--_self ini target defaultnya jadi halaman terbuka di tab yang sama-->
+    <br>
+    <a href="http://www.youtube.com/hallomellstudio" target="_blank">Hallomell Studio</a><!--Kalau pakai value targetnya _blank nantinya halaman terbuka di tab yang baru-->
+    <br>
+    
+    <!--Kenalan dengan value mailto buat kirim email yuk-->
+    <hr>
+    <a href="mailto:hallomell@outlook.com">Kirim Email</a>
+
+</body>
+</html>
